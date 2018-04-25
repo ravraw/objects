@@ -165,3 +165,9 @@ var isPalindrome = function(str) {
 };
 
 console.log(isPalindrome("abcdefggfedcba"));
+
+//factorial
+
+function f(n) {
+  return n > 1 ? n * f(n - 1) : n;
+}
